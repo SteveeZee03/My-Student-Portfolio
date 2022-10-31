@@ -1,0 +1,291 @@
+
+
+/*IMAGE SOURCES
+ https://usabilitygeek.com/wp-content/uploads/2018/05/html-guidelines-usability-seo-lead.jpg
+ https://usabilitygeek.com/wp-content/uploads/2018/05/html-guidelines-usability-seo-lead.jpg
+ https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/JavaScript-code.jpg?itok=1Wia7hH0
+ https://miro.medium.com/max/645/1*T52BLDiEDh1IUMBjyrOutw.png
+ https://s33162.pcdn.co/wp-content/uploads/2013/04/code211u1.png
+ https://vscode-docs1.readthedocs.io/en/latest/nodejs/images/reactjs/extra-semi-error.png
+ https://media.geeksforgeeks.org/wp-content/uploads/20191001192558/Screenshot-4914.png 
+ */
+
+:root {
+--Color-One: rgb(245, 232, 232);
+--Solid-Border: solid;
+--border-color-line: #594524;
+--Primary-Color: #5945242b;
+ 
+}
+
+.body{
+background-color: var(--Primary-Color);
+
+}
+.header{
+ background-color: var(--Primary-Color); 
+ margin-top: -2%; 
+ margin-left: -.5%; 
+ font-size: 30px;
+ text-align: start;
+ text-shadow: 2px 1.5px var(--Primary-Color);
+}
+
+a{
+color: black;
+transition: all 0.1s linear;
+text-decoration:underline;
+font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover{
+color: whitesmoke;
+}
+
+
+.pheader1{
+text-align: right;
+font-size: 25px;
+margin-top: -4%;
+text-decoration: none;
+
+}
+.pdiv1{
+text-align: center;
+font-weight:100;
+font-size: 25px;
+}
+.main {
+    
+    
+
+}
+.Row-One {
+display: flex;
+width: 50%;
+flex-direction: column;
+margin: 2rem auto;
+justify-content: space-evenly;
+background-color: whitesmoke;
+}
+
+.html1 {
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/313788468_1061956607834625_3219972890530684009_n.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+.h1pheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;
+
+}
+
+#html {
+}
+
+.css1 {
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/313472161_1301895137232136_4132965173182681184_n.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+
+.csheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;
+
+}
+.javascript1 {
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/js-lowsat.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+
+.jsheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;
+}
+
+.node1{
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/nodejs-2.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+.nodeheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;   
+}
+
+.Row-Two {
+display: flex;
+width: 50%;
+flex-direction: column;
+margin: 2rem auto;
+justify-content: space-evenly;
+background-color: whitesmoke;
+}
+
+.express1{
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/expressjs2.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+
+.exsheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;
+}
+
+
+.sql-nosql1 {
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/sql-3.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+
+.sqlheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;
+}
+
+.react1{
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/reactjs-1.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+.reactheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;   
+}
+
+.mern1{
+display: flex;
+border-style: var(--Solid-Border);
+background-image: url(../Images/mern-1.jpg);
+background-size: cover;
+justify-content: flex-end;
+flex-direction: row;
+padding: 12.5rem;
+}
+
+.mernheader{
+display: flex;
+text-align: left;
+border-style: var(--Solid-Border);
+border-color: black;
+width: 600px;
+background-color:  #bbb6ae;
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: left;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: .37px black;
+text-shadow: 2px 1.1px black;
+}
+
+
+   
